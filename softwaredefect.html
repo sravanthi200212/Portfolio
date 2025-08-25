@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+#projects {
+    padding: 40px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.project-card p {
+    padding: 0 10px 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+</style>
+
+</head>
+<body>
+  <section id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <img src="https://via.placeholder.com/400x250?text=Software+Defect+Prediction" alt="Software Defect Prediction">
+      <h3>Software Defect Prediction</h3>
+      <p>Machine learning-based project to identify software defects early using classification algorithms.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="https://via.placeholder.com/400x250?text=PG+Management+System" alt="PG Management System">
+      <h3>PG Management System</h3>
+      <p>A Core Java & MySQL project for tenant management, room capacity checks, and rent alerts.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="https://via.placeholder.com/400x250?text=Portfolio+Website" alt="Portfolio Website">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </div>
+</section>
+
+
+<body>
+  
+</body>
+</html>
